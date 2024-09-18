@@ -37,3 +37,16 @@ Repositório destinado para o Desenvolvimento Inicial de Sistemas Web, com lingu
 ☛ Divisão
 
 ✦ Outra funcionalidade implementada, é em caso de ser pressionado a tecla C, através do mouse no botão da calculadora, ela irá limpar a tela
+
+## Lab 32 ## 
+
+➞ Construção de um site, capaz de exercer um funcionamento de um Quiz, com 6 perguntas, contendo 4 alternativas, sendo apenas uma dela verdadeira. 
+➞ É necessário ressaltar que, as funcionalidades nele são:
+
+☛ Programado em HTML, CSS e JavaScript
+☛ Tema Tecnologia, sendo software, hardware e programação
+☛ Modo Escuro e Modo Claro
+☛ Timer para cada pergunta, entretanto, ainda em desenvolvimento, apresentando anomalias
+☛ Botão para recarregar a página
+
+#OBS:# Em desenvolvimento, programa que ainda deve ser aprimorado. 
