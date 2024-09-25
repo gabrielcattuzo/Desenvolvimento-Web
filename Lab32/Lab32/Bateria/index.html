@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Interativo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="titulo">Quiz Interativo</h1>
+  <div id="quiz-container">
+    <div id="pergunta-container">
+      <p id="pergunta"></p>
+      <ul id="opcoes">
+        <li><input type="radio" id="opcao1" name="opcao"><label for="opcao1"></label></li>
+        <li><input type="radio" id="opcao2" name="opcao"><label for="opcao2"></label></li>
+        <li><input type="radio" id="opcao3" name="opcao"><label for="opcao3"></label></li>
+        <li><input type="radio" id="opcao4" name="opcao"><label for="opcao4"></label></li>
+      </ul>
+    </div>
+    <button id="submeter">Submeter</button>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

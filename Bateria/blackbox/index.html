@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button onclick="getlocation()">O quê isso faz?</button>
+    <p id="demo"></p>
+    <div class="question-container">
+        <div class="question-box">
+            <p id="question">Pergunta atual: </p>
+        </div>
+        <div class="options-box">
+            <div id="options">
+                <div class="option">
+                    <input type="radio" id="option1" name="option">
+                    <label for="option1" id="label1"></label>
+                    <div class="option-box"></div>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option2" name="option">
+                    <label for="option2" id="label2"></label>
+                    <div class="option-box"></div>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option3" name="option">
+                    <label for="option3" id="label3"></label>
+                    <div class="option-box"></div>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option4" name="option">
+                    <label for="option4" id="label4"></label>
+                    <div class="option-box"></div>
+                </div>
+            </div>
+        </div>
+        <button id="submit">Enviar</button>
+        <p id="result">Resultado: </p>
+        <p id="timer">
+            <i class="fas fa-clock"></i>
+            <span id="time">30 segundos</span>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

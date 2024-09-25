@@ -1,0 +1,123 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Question container styles */
+  
+  .question-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Question box styles */
+  
+  .question-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .question-box p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Options box styles */
+  
+  .options-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left; /* Align options to the left */
+  }
+  
+  .options-box input[type="radio"] {
+    margin: 10px;
+  }
+  
+  .options-box label {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .option {
+    display: inline-block; /* Make each option a block element */
+    margin-right: 20px; /* Add some space between options */
+  }
+  
+  .option-box {
+    display: inline-block; /* Make the option box a block element */
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .option-box.error {
+    background-color: #ff0000; /* Red background for incorrect answers */
+    border-color: #ff0000;
+  }
+  
+  /* Submit button styles */
+  
+  #submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Result and timer styles */
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #timer .fas {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  #time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }

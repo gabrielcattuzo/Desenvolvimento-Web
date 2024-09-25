@@ -1,0 +1,2 @@
+Este é um exemplo de arquivo de texto.
+Ele será enviado para o servidor como parte do teste de upload.
