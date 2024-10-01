@@ -1,12 +1,3 @@
-1.	Instalar o Express:
-Primeiro, instale o Express, que facilita o gerenciamento de rotas e o serviço de arquivos estáticos.
-No terminal, execute:
-
-npm install express
-
-2.	Estrutura de Diretórios:
-Crie uma estrutura de diretórios onde seus arquivos HTML e CSS estarão. Por exemplo:
-
 Estrutura de Diretórios Completa:
 
 ├── server.js
@@ -14,4 +5,10 @@ Estrutura de Diretórios Completa:
     ├── index.html
     ├── about.html
     ├── styles.css
+    ├── upload.html
+    ├── 404.html
 
+/public/index.html -> Pagina Inicial
+/public/about.html -> Sobre
+/public/upload.html -> Upload de Arquivos
+/public/404.html -> Erro 404
