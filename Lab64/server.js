@@ -17,6 +17,16 @@ app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'about.html'));
 });
 
+// Rota para a página de upload
+app.get('/upload', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'upload.html'));
+});
+
+// Rota para a página de erro 404
+app.get('*', (req, res) => {
+    res.status(404).sendFile(path.join(__dirname, 'public', '404.html'));
+});
+
 // Inicia o servidor
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
