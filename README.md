@@ -49,9 +49,16 @@ Repositório destinado para o Desenvolvimento Inicial de Sistemas Web, com lingu
 ☛ Timer para cada pergunta, entretanto, ainda em desenvolvimento, apresentando anomalias
 ☛ Botão para recarregar a página
 
-#OBS:# Em desenvolvimento, programa que ainda deve ser aprimorado. 
-
 ## Lab 64 ##
 
-➞ 
-➞ 
+➞ Programa em HTML, CSS, JavaScript com Node.js
+➞ Site para explorar as trilhas de um diretório
+
+## Lab 128 ##
+
+➞ Explorando os recursos de Desenvolvimento-Web, projetando um site capaz de receber formulário
+➞ Enviando esses formulários para um email, como se fosse um ''recrutamento''
+➞ O qual o usuário deve inserir seu nome, email e descrição, sendo esses campos obrigatórios
+➞ Alguns diretórios possuem node.js, mas inoperantes por enquanto.
+
+Entretanto, nesse momento, esses programas não funcionam, até pelo menos a data 02/10/2024, que ainda devem ser reformulados para promover o seu funcionamento.
