@@ -53,5 +53,7 @@ Repositório destinado para o Desenvolvimento Inicial de Sistemas Web, com lingu
 
 ## Lab 64 ##
 
-➞ 
-➞ 
+➞ Construção de um site, para a exploração do uso da tecnologia Node.js
+➞ Explorando o uso de trilhas dentro de um site, como criação de um sobre, site principal, um erro para caso seja inserido um diretório que não existe.
+
+#OBS:# Mais informações dele, estarão disponíveis no README do próprio Lab64
