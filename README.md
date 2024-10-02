@@ -57,3 +57,9 @@ OBS: Em desenvolvimento, programa que ainda deve ser aprimorado.
 ➞ Explorando o uso de trilhas dentro de um site, como criação de um sobre, site principal, um erro para caso seja inserido um diretório que não existe.
 
 OBS: Mais informações dele, estarão disponíveis no README do próprio Lab64
+
+## Lab 128 ##
+
+➞ Construção de um Formulário, de Formspree, capaz de receber emails, como se fosse envio de currículo para uma empresa
+➞ Código construído em HTML, JavaScript e CSS
+➞ Existem variações do 128, que são explorando o uso de Node.js, mas atualmente, até a data 02/10/2024 não estão funcionando corretamente
